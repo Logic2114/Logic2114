@@ -1,0 +1,127 @@
+  
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+ html{
+    height: 100%;
+    width: 100%;
+} 
+body{ 
+    background-image: url("https://res.cloudinary.com/eloagbawe/image/upload/v1586041263/sn1szlpnbj27al5qpkhr.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%; 
+    width: 100%;
+    font-family: "-apple-system", "BlinkMacSystemFont", "segoe ui", "Roboto", 
+    "helvetica neue", Arial, "noto sans", sans-serif, "apple color emoji",
+     "segoe ui emoji", "segoe ui symbol", "noto color emoji";
+}
+.logodiv{
+    margin: 50px 0px 0px 625px ;
+    background-color: #012363;
+    width:100px;
+    height:50px;
+}
+.create-account-section{
+    background-color: #FFFFFF;
+    width: 450px;
+    height:980px;
+    padding:45px 10px;
+    margin: 30px 0 20px 495px;
+    border-radius: 25px 25px 25px 0px;
+}
+#create-account-heading{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+    font-family: "-apple-system", "BlinkMacSystemFont", "segoe ui", "Roboto", 
+    "helvetica neue", Arial, "noto sans", sans-serif, "apple color emoji",
+     "segoe ui emoji", "segoe ui symbol", "noto color emoji";
+    color: #073E9E;
+
+}
+#create-account-text{
+    font-size: 13px;
+    text-align: center;
+    color: #4A5568;
+    margin-top:5px;
+    letter-spacing: 1px;
+}
+.form-div{
+    padding: 30px;
+}
+.form-div >label{
+    color: #4A5568;
+    font-weight: bold;
+    font-size: 12px;
+}
+.form-div >input {
+    width: 365px;
+    height: 55px;
+    background-color: #EDF2F7;
+    border-style: none;
+    margin-bottom: 42px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-div > input:focus{
+    outline: none;
+}
+.form-div > select{
+    width: 365px;
+    height: 55px;
+    background-color: #EDF2F7;
+    border-style: none;
+    margin-bottom: 42px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+#referral_options{
+    border-radius: 10px;
+}
+.form-div >select:focus{
+    outline: 1px solid #2783FB;
+}
+#submit{
+    width: 365px;
+    height:55px;
+    /* background-color: #052B6F; */
+    background-color: #073E9E;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px 10px 10px 0px;
+    border-style: none;
+}
+#submit:hover{
+    background-color: #052B6F;
+}
+.reminder{
+    width: 450px;
+    margin-left: 495px;
+    text-align: center; 
+    color: #FFFFFF;
+    padding: 20px 0px 50px 0px;
+}
+.reminder >a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+@media only screen and (min-width: 1500px){
+    .logodiv{
+        margin: 50px 0px 0px 665px;
+    }
+    .create-account-section{
+        margin: 30px 0px 20px 535px;
+    }
+    .reminder{
+        margin-left: 535px;
+    }
+}
